@@ -9,7 +9,8 @@
       "P.A_Service/1.0.0": {
         "dependencies": {
           "P.A._Entity": "1.0.0",
-          "P.A_Contract": "1.0.0"
+          "P.A_Contract": "1.0.0",
+          "SmsIrRestfulNetCore": "1.1.4"
         },
         "runtime": {
           "P.A_Service.dll": {}
@@ -463,6 +464,14 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1"
+        }
+      },
+      "SmsIrRestfulNetCore/1.1.4": {
+        "runtime": {
+          "lib/netcoreapp2.0/SmsIrRestfulNetCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "System.AppContext/4.1.0": {
@@ -1051,6 +1060,13 @@
       "sha512": "sha512-QfS/nQI7k/BLgmLrw7qm7YBoULEvgWnPI+cYsbfCVFTW8Aj+i8JhccxcFMu1RWms0YZzF+UHguNBK4Qn89e2Sg==",
       "path": "runtime.native.system/4.0.0",
       "hashPath": "runtime.native.system.4.0.0.nupkg.sha512"
+    },
+    "SmsIrRestfulNetCore/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yZVm87oKasXdVl1BYucfj66ZPtFDcMR7Wc7Kf9Zgbw7ylMR2bCBuKD1dEawYBVQLwTZmFjjnTZQCSEw+nZ5CNw==",
+      "path": "smsirrestfulnetcore/1.1.4",
+      "hashPath": "smsirrestfulnetcore.1.1.4.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",

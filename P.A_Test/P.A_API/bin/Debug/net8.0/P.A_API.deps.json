@@ -809,6 +809,14 @@
           }
         }
       },
+      "SmsIrRestfulNetCore/1.1.4": {
+        "runtime": {
+          "lib/netcoreapp2.0/SmsIrRestfulNetCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1119,7 +1127,8 @@
       "P.A_Service/1.0.0": {
         "dependencies": {
           "P.A._Entity": "1.0.0",
-          "P.A_Contract": "1.0.0"
+          "P.A_Contract": "1.0.0",
+          "SmsIrRestfulNetCore": "1.1.4"
         },
         "runtime": {
           "P.A_Service.dll": {}
@@ -1594,6 +1603,13 @@
       "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
       "path": "newtonsoft.json/13.0.2",
       "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "SmsIrRestfulNetCore/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yZVm87oKasXdVl1BYucfj66ZPtFDcMR7Wc7Kf9Zgbw7ylMR2bCBuKD1dEawYBVQLwTZmFjjnTZQCSEw+nZ5CNw==",
+      "path": "smsirrestfulnetcore/1.1.4",
+      "hashPath": "smsirrestfulnetcore.1.1.4.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

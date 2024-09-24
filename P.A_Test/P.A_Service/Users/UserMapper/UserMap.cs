@@ -12,7 +12,7 @@ namespace P.A_Service.Users.UserMapper
     {
         public static List<UserResultDTO> PersonelssMapper(this List<User> personels)
         {
-            personels.OrderBy(u=>u.Name).ThenBy(u=>u.Family);
+            personels=personels.OrderBy(u=>u.Name).ThenBy(u=>u.Family).ToList();
             var personelsDTO=new List<UserResultDTO>();
             foreach (var personel in personels)
             {
