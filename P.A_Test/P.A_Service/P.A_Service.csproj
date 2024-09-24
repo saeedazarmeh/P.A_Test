@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SmsIrRestfulNetCore" Version="1.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\P.A._Entity\P.A._Entity.csproj" />
     <ProjectReference Include="..\P.A_Contract\P.A_Contract.csproj" />
   </ItemGroup>

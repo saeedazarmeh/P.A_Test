@@ -10,6 +10,7 @@ using P.A._Entity.Users;
 using P.A_Contract.InfraStucture;
 using P.A_Contract.Service.SecurityUtil;
 using P.A_Service.Roles.Contracts;
+using P.A_Service.SMS;
 using P.A_Service.Users.Contracts;
 using P.A_Service.Users.Contracts.DTOs;
 using P.A_Service.Users.Contracts.Exceptions;
@@ -47,6 +48,7 @@ namespace P.A_Service.Users
                     user.AddRole(new UserRole(role.Id));
                     await _unit.Complete();
                     await _unit.Commit();
+                    SMSService.Sendsuccessfullymessage(dto.Phone, dto.Name, dto.Family);
                 }
                 catch (Exception e)
                 {
@@ -79,6 +81,7 @@ namespace P.A_Service.Users
                     personel.AddRole(new UserRole(role.Id));
                     await _unit.Complete();
                     await _unit.Commit();
+                    SMSService.Sendsuccessfullymessage(dto.Phone, dto.Name, dto.Family);
                 }
                 catch (Exception e)
                 {
